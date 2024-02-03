@@ -1,0 +1,149 @@
+/* header */
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Newsreader:ital,opsz@1,6..72&family=Noto+Sans+Meetei+Mayek&family=Volkhov:ital@0;1&display=swap');
+.header-class nav{
+    background-color: teal;
+}
+
+
+.header-class nav a h2{
+    font-family: 'BioRhyme', serif;
+    font-family: 'Zilla Slab', serif;
+   
+}
+
+.header-class nav a h6{
+    font-family: 'Newsreader', serif;
+}
+
+.header-class ul li a{
+    position: relative;
+    font-family: 'Volkhov', serif;
+    text-transform: uppercase;
+}
+
+.header-class ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background-color: #fff;
+    transition: all .5s;
+
+}
+
+.header-class ul li a:hover::before{
+    width: 100%;
+}
+
+main{
+    background-color: black;
+}
+/* first section*/
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap');
+.profile-image{
+    border-radius: 100%;
+    margin: 50px;
+    padding: 20px;
+}
+
+.quote{
+    line-height: 165%;
+    font-size: 56px;
+    text-align: center;
+    margin-top: 159px;
+    font-family: 'BioRhyme', serif;
+    position: relative;
+}
+
+
+
+/* about section */
+
+.about-heading{
+    text-align: center;
+}
+
+.about-desc{
+    margin-top: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* skills section */
+.skills-heading{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skills-img{
+    text-align: center;
+}
+
+.skills-img img{
+    padding: 70px;
+    width: 225px;
+}
+
+/* Experience */
+.experience-heading{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.exp-col{
+    margin-top: 15px;
+}
+
+.blockquote ul li{
+    font-family: 'Zilla Slab';
+}
+
+/* services */
+.services-heading{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* connect */
+.connect-sec{
+    /* background-color: teal; */
+
+}
+
+.msg{
+    font-family: 'Volkhov';
+    font-size: medium;
+    text-align: center;
+    margin-top: 125px;
+}
+
+.snd{
+    font-family: 'volkhov';
+}
+
+.form-fields{
+    /* border-radius: 5px; */
+    width: 100%; 
+    /* border-style: none; */
+}
+
+.msg-button{
+    background: none;
+    border-color: teal;
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+
+/* footer */
+footer{
+    background-color: teal;
+    margin: 0;
+
+}
