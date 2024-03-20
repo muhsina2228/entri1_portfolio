@@ -5,6 +5,10 @@
     background-color: teal;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 .header-class nav a h2{
     font-family: 'BioRhyme', serif;
@@ -108,11 +112,7 @@ main{
     text-align: center;
 }
 
-/* connect */
-.connect-sec{
-    /* background-color: teal; */
 
-}
 
 .msg{
     font-family: 'Volkhov';
